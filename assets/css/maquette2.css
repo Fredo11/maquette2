@@ -1,0 +1,189 @@
+
+/*-------------------------------------------header  menu 1-----------------------------------*/
+header{
+		background-image: linear-gradient(rgba(0,0,0,0.45),rgba(0,0,0,0.45)),url(../img/image-499666622.jpg);
+}
+/*----------------------------------------class  container 1  2 ----------------------------------*/
+.container1{
+		display: flex;
+		justify-content: center;
+		width: 100%;
+}
+.container2{
+		width: 63%;
+}
+/*-------------------------------------------fin   class----------------------------------*/
+/*-------------------------------------------header  menu 1-----------------------------------*/
+
+.nav{
+		display: inline-flex;
+}
+.logomenu{
+		padding-top: 10px;
+}
+.nav1 li img{
+		width: 100px;
+}
+.nav2 li{
+		display: inline-flex;
+		padding: 10px
+		
+}
+.nav2 li a{
+		display: inline-flex;
+		padding-top: 15px;
+		color: white;
+		font-size: 12px;
+		text-decoration: none;
+}
+h1{
+		color: white;font-size: 45px;
+}
+header p{
+		color: white;font-size: 20px;
+}
+.bouton1{		
+		width: 160px;height: 50px;
+		margin: 10px 0 50px 0;
+		font-size: 20px;
+		background: orange;
+		color: white;		
+		border: none;
+		border-radius: 2px;
+}
+/*-------------------------------------------section 1   fine features-----------------------------------*/
+.photo1{
+		display: inline-flex;		
+		width: 100%;				
+}
+.textes{		
+		justify-content: center;
+}
+.ico{
+		display: flex;
+}
+.ico img{
+		float: left;
+		padding:10px;
+}
+/*-------------------------------------------menu portfolio---------------------------------------------*/
+.titre{
+		display: flex;	    
+	    align-items: center;
+	    white-space: nowrap;	    
+}
+.trait{
+	    border-top: solid lightgrey 2px;
+	    width: 100%;
+}
+/* ---------------------------------navbar-- */
+.portfolio-menu ul{
+		display: inline-flex;
+		list-style: none; 
+}
+.portfolio-menu ul li a {
+	    text-decoration: none;
+	    padding-right: 20px;
+	    color:grey;
+}
+.portfolio-menu ul li a .active{
+        color:orange;
+}
+/* --- ---------------------------images--- */
+.portfolio-images{
+	    display:flex;
+	    justify-content: center;
+	    flex-flow: wrap;
+}
+.portfolio-item{
+	    width:33%;
+	    height:33%;
+	}
+/*-------------------------------------------orange-------------------------------------------------*/
+#orange{
+		background-color: orange;color: #ffffff;
+}
+.boutondouble{
+		margin-bottom: 20px;margin: 0 -4px 20px;
+}
+.boutondouble i{
+		color: black;
+}
+/*-------------------------------------------team---------------------------------*/
+#team{  
+		display: flex;
+		justify-content: center;
+}
+.pperson{
+		display: inline-flex;
+		justify-content: space-between;
+}
+hr{
+		margin: 0 20px 0 10px;
+}
+.person img{
+		width:100%;
+}
+/*-------------------------------------------static--------------------------------*/
+#static{
+		display: flex;
+		justify-content: center;
+		padding-top: 20px;
+		color: white;
+		background-image: linear-gradient(rgba(0,0,0,0.45),rgba(0,0,0,0.45)),url(../img/image-195625538.jpg);
+}
+/*-------------------------------------------get touch------------------------------*/
+#get_touch{
+		display: flex;
+		justify-content: center;
+}
+.consend{
+		display: inline-flex;
+		justify-content: space-between;
+}
+.contact{
+		width: 50%;
+}
+p span{
+		color:orange;
+}
+.contact i{
+		font-size: 35px;
+		padding-bottom: 10px;		
+		color: orange;
+}
+textarea,input{
+		width: 100%;
+		background-color: #f2f2f2;
+		border: none;
+}
+.send{
+		width: 45%;
+}
+.send1{
+		display: inline-flex;
+		padding-right: 50px;
+}
+/*-------------------------------------------footer--1---------------------------*/
+#footer{
+		display: flex;
+		justify-content: center;
+		padding: 50px 0 50px 0;
+		color: white;
+		background-image: linear-gradient(rgba(0,0,0,0.45),rgba(0,0,0,0.45)),url(../img/image-195625538.jpg);
+}
+.mmarkup{
+		display:inline-flex;
+		justify-content: space-between;
+}
+.markup{
+		width: 250px;
+}
+
+/*-------------------------------------------footer--2-----------------------------*/
+.footer2{
+		display: flex;
+		justify-content: center;
+		padding: 10px 0 10px 0;
+		background-color: grey;
+}

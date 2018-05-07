@@ -1,0 +1,126 @@
+header{	
+		display: inline-flex;
+		justify-content: space-around;
+		width: 100%;
+		background-color: black;
+		
+}
+ul li{		
+		display:inline-flex;
+		padding: 10px;
+}
+ul li a{		
+		color: white;
+		text-decoration: none;
+}
+ul.nav1 li a i{		
+		color: red;
+}
+ul.nav2 li{		
+		display:inline-flex;
+		
+		margin-left: 20px;
+        padding: 10px;
+        font-size: 12px;
+}
+ul.nav2 li a{		
+		color: white;
+		text-decoration: none;
+}
+ul.nav2 li a:hover{		
+		text-decoration: none;
+		background-color: red;
+}
+/*-------------------------------------------section1-----------------------------------*/
+#section1 {
+		margin-top:-400px;
+		text-align: center;
+}
+#section1 h1{
+		font-size:40px; 
+		color:white; 
+}
+#section1 p{
+		font-size:30px; 
+		color:white; 
+}
+/*-------------------------------------------section2-----------------------------------*/
+#section2{
+		display: inline-flex;
+		justify-content: center;
+		width: 98%;
+		margin-top: 140px;
+		padding: 15px;
+		font-size: 15px;
+		text-align: center;
+		background-color: #F2F2F2;
+}
+.ico{
+		width: 20%;padding: 20px;
+}
+.ico i{
+		color:red;
+		font-size: 20px;
+}
+/*-------------------------------------------section3-----------------------------------*/
+#section3{
+		width: 98%;
+		text-align: center; 
+		background-color: #E6E6E6;
+}
+#section3 {
+		margin-top: 0px;padding: 15px;
+}
+#section3 img{
+		display: inline-block;
+		width: 15%; height: 15%;
+}
+
+/*-------------------------------------------section4-----------------------------------*/
+#section4{
+		width: 98%;
+		margin-top: 0px;
+		padding: 15px;
+		text-align: center;
+		font-size: 15px; 
+		background-color: #F2F2F2;
+}
+#section4 img{
+		width: 50%; height: 50%;
+		padding-top: 50px;
+}
+/*-------------------------------------------section5-----------------------------------*/
+#section5{
+		width: 98%;
+		margin-top: -20px;
+		padding: 15px;
+		text-align: center;
+		background-color: #EBEBEB;
+}
+#section5 img{
+		display: inline-block;
+		width: 100px; 
+		height: 100px;
+		margin-left: 30px;
+		margin-top: 30px;
+}
+/*-------------------------------------------section6-----------------------------------*/
+#section6{
+		width: 98%;
+		margin-top: 0px;
+		padding: 15px;
+		text-align: center;
+		font-size: 15px; 
+		background-color: #FA5858;
+}
+/*-------------------------------------------footer-----------------------------------*/
+#footer{
+		width: 98%;
+		margin-top: -20px;
+		padding: 15px;
+		text-align: center;
+		background-color: #6E6E6E;
+}
+#footer i{
+		font-size:40px;color:#BBBFBF;	
+}
