@@ -4,10 +4,9 @@ header{
 		background-image: linear-gradient(rgba(0,0,0,0.45),rgba(0,0,0,0.45)),url(../img/image-499666622.jpg);
 }
 /*----------------------------------------class  container 1  2 ----------------------------------*/
-.container1{
+.container1, #section1, #section2, #section4, #section6{
 		display: flex;
-		justify-content: center;
-		width: 100%;
+		justify-content: center;		
 }
 .container2{
 		width: 63%;
@@ -95,12 +94,17 @@ header p{
 	    justify-content: center;
 	    flex-flow: wrap;
 }
+.portfolio-images1{
+	    display:flex;padding-bottom: 40px;
+	    justify-content: center;
+	    flex-flow: wrap;
+}
 .portfolio-item{
 	    width:33%;
 	    height:33%;
 	}
 /*-------------------------------------------orange-------------------------------------------------*/
-#orange{
+#section3{
 		background-color: orange;color: #ffffff;
 }
 .boutondouble{
@@ -110,10 +114,6 @@ header p{
 		color: black;
 }
 /*-------------------------------------------team---------------------------------*/
-#team{  
-		display: flex;
-		justify-content: center;
-}
 .pperson{
 		display: inline-flex;
 		justify-content: space-between;
@@ -125,7 +125,7 @@ hr{
 		width:100%;
 }
 /*-------------------------------------------static--------------------------------*/
-#static{
+#section5{
 		display: flex;
 		justify-content: center;
 		padding-top: 20px;
@@ -133,10 +133,6 @@ hr{
 		background-image: linear-gradient(rgba(0,0,0,0.45),rgba(0,0,0,0.45)),url(../img/image-195625538.jpg);
 }
 /*-------------------------------------------get touch------------------------------*/
-#get_touch{
-		display: flex;
-		justify-content: center;
-}
 .consend{
 		display: inline-flex;
 		justify-content: space-between;
@@ -181,7 +177,7 @@ textarea,input{
 }
 
 /*-------------------------------------------footer--2-----------------------------*/
-.footer2{
+#footer2{
 		display: flex;
 		justify-content: center;
 		padding: 10px 0 10px 0;
